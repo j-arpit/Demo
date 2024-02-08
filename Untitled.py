@@ -75,6 +75,7 @@ with mlflow.start_run():
     
     model_name = "ElasticnetWineModel"
     mlflow.sklearn.log_model(lr, "model", registered_model_name="ArpitModel", signature=signature)
+    """From Test user"""
     
 
 
